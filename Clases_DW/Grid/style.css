@@ -1,0 +1,40 @@
+body{
+    margin: 0% 0% 0% 0%;
+}
+
+.up1{
+    height: 20vh;
+    width: 25vh;
+    background-color: black;
+    display: inline-block;
+    position: relative;
+}
+
+.up2{
+    height: 20vh;
+    width: 25vh;
+    background-color: black;
+    display: inline-block;
+    position: relative;
+}
+
+.up3{
+    height: 20vh;
+    width: 50vh;
+    background-color: black;
+    display: inline-block;
+}
+
+.contenedor1{
+    height: 80vh;
+    width: 50vh;
+    background-color: rgb(26, 144, 232);
+    display: inline-block;
+} 
+
+.contenedor2{
+    height: 80vh;
+    width: 50vh;
+    background-color: lawngreen;
+    display: inline-block;
+}

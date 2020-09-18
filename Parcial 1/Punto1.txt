@@ -1,0 +1,65 @@
+
+a) Diferentes usuarios para la app:
+    - Administrador
+    - Investigador
+    - Participante (Grupo: I, II, III y IV)
+
+
+b) Historias de usuario:
+
+    1) 
+    Id: 001
+    Prioridad: 10
+    Yo como: Administrador
+    Quiero: Acceso a una base de datos
+    Para: Modificar y mantener los datos de los usuarios
+    Utilidad: 10
+    Dificultad: 5
+    Tiempo Estimado: 6
+
+    2) 
+    Id: 002
+    Prioridad: 8
+    Yo como: Investigador
+    Quiero: Acceso a los datos (consejos, propuestas) de los participantes
+    Para: realizar un respectivo análisis.
+    Utilidad: 10
+    Dificultad: 7
+    Tiempo Estimado: 8
+
+    3) 
+    Id: 003
+    Prioridad: 10
+    Yo como: Participante
+    Quiero: Poder loggearme de forma segura en la app
+    Para: interactuar en la misma, mientras mi info personal está siendo protegida.
+    Utilidad:
+    Dificultad:
+    Tiempo Estimado: 4
+
+    4) 
+    Id: 004
+    Prioridad: 8 
+    Yo como: Investigador
+    Quiero: Dividir a los participantes en ciertos grupos (I, II, III, IV)
+    Para: Darles cierto rol al momento de interactuar en la app
+    Utilidad: 10
+    Dificultad: 8
+    Tiempo Estimado: 9
+
+
+c)
+
+Requerimientos Funcionales:
+    - Base de datos para guardar la informacion de los usuarios
+    - Cada usuario solo puede asumir un rol (Admin, Investigador, Participante)
+    - Se deben poder sacar reportes de todas las discusiones para su analisis
+    - El Admin debe tener el control de todo en la app
+    - Interfaz y diseño amigable y llamativo
+    - ...
+
+Requerimientos No Funcionales:
+    - Seguridad para los datos personales de los usuarios
+    - La app debe ser responsive
+    - Contar con un servidor que maximize el funcionamiento rapido de la app
+    - ...

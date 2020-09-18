@@ -1,0 +1,31 @@
+h1, h2{
+    color: chartreuse;
+    font-family: Arial;
+}
+
+section{
+    color: cyan;
+    font-family: Helvetica;
+}
+
+#seccion1{
+    font-family: Arial;
+}
+
+.boton-check{
+    color: darkgreen;
+    font-family: Cambria;
+}
+
+.boton2, .boton-check{
+    background-color: lime;
+    color: white;
+}
+
+div h1{
+    color: teal;
+}
+
+div > h1{
+    color: tomato;
+}
