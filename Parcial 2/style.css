@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Ravi+Prakash&display=swap');
+
+.tablero-juego{
+    display: grid;
+    height: 80vh;
+    width: auto;
+    grid-gap: 0.5rem;
+    grid-template-columns: repeat(2, auto);
+}
+
+.casilla{
+    display: grid;
+    place-items: center;
+    background-color: #ffffff;
+    opacity: 0.7;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    border-radius: 10%;
+    box-shadow: 10px 11px 21px -7px rgba(0,0,0,0.75);
+}
+
+.gatito{
+    width: 100%;
+    background-image: none;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.espacio-juego{
+    display: grid;
+    grid-template-columns: 10vw 70vw auto;
+}
+
+
+/*  */
+
+.a{
+    display: grid;
+    grid-column: 1;
+}
+
+.barra-vacia{
+    display: grid;
+    grid-column: 1;
+    background-color: white;
+    /* border: 5px; */
+    width: auto;
+    padding: 5%;
+    margin: 10%;
+    grid-gap: 0.5rem;
+    border-radius: 50px;
+}
+
+.barra-llena{
+    background-color: lawngreen;
+    /* border: 5px; */
+    height: 0%;
+    width: 100%;
+    grid-gap: 0.5rem;
+    border-radius: 50px;
+}
+
+
+/*  */
+
+.b{
+    display: grid;
+    grid-column: 2;
+}
+
+.c{
+    display: grid;
+    grid-template-columns: 20vw;
+    place-items: center;
+    /* grid-template-rows: 20vh auto 20vh; */
+}
+
+.reference-card{
+    width: 70%;
+    height: 40%;
+    background-color: blueviolet;
+    border-radius: 90px 10px 90px 10px;
+    border: 0px solid #000000;
+}
+
+#headerPage{
+    display: grid;
+    height: 10vh;
+    grid-template-columns: auto auto auto auto;
+    place-items: center;
+    font-family: 'Ravi Prakash', cursive;
+    font-size: 30px;
+    color: white;
+    background-color: rgb(93, 69, 141);
+    margin: 0 0 3% 0;
+    box-shadow: 10px 11px 21px -7px rgba(0,0,0,0.75);
+}
+
+
+.game{
+    position:fixed;
+    padding:0;
+    margin:0;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    background-image: url("cats.jpg");
+}
+
+#audio{
+    display: grid;
+    background-image: url("MuteOn.png");
+    background-size: contain;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+}

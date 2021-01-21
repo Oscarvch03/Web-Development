@@ -1,9 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Long+Cang&display=swap');
 
 .grid-container{
+    /* height: 200px;
+    width: 200px; */
     display: grid;
     grid-template-columns: auto auto auto;
-    /* grid-template-rows: auto auto auto; */
+    grid-template-rows: auto auto auto;
     background-color: aqua;
     padding: 10px;
 }
@@ -23,5 +25,6 @@
     grid-row-end: 5;
     grid-column-start: 1;
     grid-column-end: 3;
-    background-color: lawngreen;
+    background-color: rgb(244, 0, 252);
 }
+

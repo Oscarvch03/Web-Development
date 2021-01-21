@@ -1,0 +1,51 @@
+.casilla{
+    background-color: lawngreen;
+    /* height: 200px;
+    width: 200px; */
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto auto;
+    padding: 10px;
+}
+
+.grid{
+    /* height: 200px;
+    width: 200px; */
+    background-color: deepskyblue;
+    border: 3px blue solid;
+    font-size: 30px;
+    color: cornsilk;
+    text-align: center;
+    padding: 70px;
+    font-family: 'Long Cang';
+    font-weight: bold;
+}
+
+/* .item1{
+    background-color: darkmagenta;
+} */
+
+.tablero-juego{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    grid-template-rows: auto auto auto auto auto auto;
+    background-color: lime;
+    padding: 10px;
+    
+}
+
+.tab{
+    background-color: darkviolet;
+    border: 3px green solid;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    padding: 50px;
+    font-family: 'Long Cang';
+    font-weight: bold;
+}
+
+#space{
+    height: 100px;
+    background-color: white;
+}

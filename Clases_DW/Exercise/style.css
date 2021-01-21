@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Rakkas&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Rakkas&display=swap');.error-message{
+    background-color: #ffd101;
+    font-family: 'Rakkas', cursive;
+    width: 70vw;
+    margin: 3vw 15vw 3vw 15vw;
+}.error{
+    width: 30%;
+    margin: auto;
+    display: inline-block;
+    overflow: auto;
+    justify-content: center;
+    align-items: center;
+}.error-text{
+    display: inline-block;
+    font-size: 50px;
+    margin: 5vw;
+    width: 40%;
+}.parrafo{
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+}.button-reintentar{
+    background-color: rgb(27, 27, 27);
+    border: none;
+    color: white;
+    padding: 2% 4% 2% 4%;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    align-self: center;
+}.button-reintentar:hover{
+    background-color: rgb(59, 59, 59);
+}

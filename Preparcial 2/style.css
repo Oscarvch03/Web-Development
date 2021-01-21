@@ -1,0 +1,76 @@
+#header{
+    display: grid;
+    height: 10vh;
+    grid-template-columns: auto auto;
+    place-items: center;
+    font-family: 'Ravi Prakash', cursive;
+    font-size: 40px;
+    color: black;
+    background-color: rgb(76, 248, 8);
+    margin: 0 0 3% 0;
+    opacity: 0.8;
+    box-shadow: 10px 11px 21px -7px rgba(0,0,0,0.75);
+}
+
+.game{
+    position: fixed;
+    padding: 0;
+    margin: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("fondo4.jpg");
+}
+
+.tablero{
+    display: grid;
+    height: 80vh;
+    width: auto;
+    grid-gap: 0.5rem;
+    grid-template-columns: repeat(8, auto);
+}
+
+.casilla{
+    display: grid;
+    place-items: center;
+    background-color: #ffffff;
+    opacity: 0.7;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    border-radius: 10%;
+    box-shadow: 10px 11px 21px -7px rgba(0,0,0,0.75);
+}
+
+.gatito{
+    width: 100%;
+    background-image: none;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.left{
+    display: grid;
+    grid-column: 2;
+}
+
+.right{
+    display: grid;
+    grid-template-columns: 20vw;
+    place-items: center;
+}
+
+#reference-card{
+    width: 70%;
+    height: 40%;
+    background-color: blueviolet;
+    border-radius: 90px 10px 90px 10px;
+    border: 0px solid #000000;
+}
+
+.espacio{
+    display: grid;
+    grid-template-columns: 10vw 70vw auto;
+}
